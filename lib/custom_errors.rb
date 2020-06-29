@@ -9,6 +9,9 @@ class Person
     self.partner = person
     person.partner = self
   end
+  
+  
+class PartnerError < Standard Error
 
 end
 
@@ -17,5 +20,5 @@ beyonce.get_married("Jay-Z")
 puts beyonce.name
 
 
-
+ 
 
